@@ -1,0 +1,135 @@
+/*
+Theme Name: project-iap2021
+Text Domaine: Project Luciana 2021
+Version: 1.0
+Description: Manifest theme with figma https://www.figma.com/file/5RFMPTd6NJ1dLaKRjhdHkp/WP-Manifest-(Community)?node-id=1%3A39
+Tags: me, left-sidebar, responsive, fancy
+Author: Iqbal Luciana
+
+*/
+@import "css/grid.css";
+*{
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+	margin: 16px 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: right;
+}
+
+li {
+	display: inline-block;
+	padding: 8px;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.header {
+	display: flex;
+	padding: 32px 0 96px;
+	align-items: center;
+}
+
+.header-title{
+   
+   margin-top: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header .menu-trigger {
+    display: none;
+  }
+}
+
+h1{
+    line-height: 20px;
+    padding-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-family: "Red Hat Display", Arial;
+}
+
+ .footer-text {
+ 	padding-left: 100px;
+ }
+
+.footer {
+ background-color: grey;
+  padding: 40px 0;
+  color: black;
+  margin-top: 100px;
+}
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 115px 0;
+  }
+}
+.footer-links {
+  margin-top: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-links {
+    margin-top: 0;
+  }
+}
+.footer p {
+  margin-top: 20px;
+  line-height: 1.8;
+}
+.footer strong {
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer ul {
+	display: inline-block;
+  margin-top: 20px;
+}
+.footer a {
+  /*display: block;*/
+  font-size: 18px;
+  font-weight: 300;
+  padding: 7px 0;
+}
+
+.footer li {
+	display: block;
+}
+
+/*de intrebat!!!! .footer-buttom-alignmet{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+}
+*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*p{
+	background-color: black;
+}*/
+
+h4{
+	font-family: lato;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 32px;
+	align-content: left;
+	letter-spacing: 5%;
+}
+
